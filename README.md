@@ -1,7 +1,7 @@
 # CIFAR-100 Transfer Learning with InceptionV3
 
 ## Overview
-This repository contains code for a deep learning model using transfer learning with InceptionV3 on the CIFAR-100 dataset. The model achieves a testing accuracy of 76.66%.
+This repository contains code for a deep learning model using transfer learning with InceptionV3 on the CIFAR-100 dataset. The model achieves a testing accuracy of 70.24%.
 
 ## Dataset
 The CIFAR-100 dataset consists of 60,000 32x32 color images in 100 different classes. It is divided into 50,000 training images and 10,000 testing images.
@@ -16,7 +16,7 @@ The dataset is preprocessed by normalizing pixel values to the range [0, 1]. Ima
 The model is trained for 50 epochs with a learning rate reduction strategy. If the validation accuracy does not improve for 3 consecutive epochs, the learning rate is decreased by a factor of 0.6.
 
 ## Results
-The training and validation accuracy and loss are visualized using matplotlib. The final testing accuracy achieved by the model is 76.66%. A confusion matrix is generated to assess the model's performance on individual classes.
+The training and validation accuracy and loss are visualized using matplotlib. The final testing accuracy achieved by the model is 70.24%. A confusion matrix is generated to assess the model's performance on individual classes.
 
 ## Usage
 1. Clone the repository: `git clone https://github.com/your-username/cifar-100-transfer-learning.git`
